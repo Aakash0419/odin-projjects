@@ -1,18 +1,3 @@
-// let game = parseInt(prompt("Enter a limit"));
-// for(let i= 0 ; i< game;i++){
-//     let fiz = parseInt(prompt("enter a number"));
-//     if(fiz%5===0&&fiz%3===0){
-//         console.log("FizzBuzz\n");
-//     }
-//     else if(fiz%5===0){
-//         console.log("Buzz\n");
-//     }
-//     else if(fiz%3===0){
-//         console.log("Fizz\n");
-//     }
-//     else console.log(`${fiz}\n`);
-// }
-// alert("ayo wtf");
 const ifcontains = (userchoices , availablechoices)=>{
     for(let i=0; i< availablechoices.length;i++){
         if(availablechoices[i].toLowerCase()===userchoices.toLowerCase()){
